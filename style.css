@@ -1,5 +1,6 @@
 body {
     justify-content: center;
+    
 
 }
 
@@ -13,3 +14,42 @@ h2 {
     text-align: center;
     margin-top: 0px;
 }
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+img {
+   width: 200px;
+   height: 320px;
+   margin-left: 10px;
+   margin-bottom: 50px;
+   
+   margin-bottom: 30px;
+   
+   
+}
+
+.item {
+    flex-wrap: wrap;
+}
+
+
+
+.relaxed {
+    display: inline;
+}
+
+
+.tee {
+    border: 1px solid grey;
+    border-left: 1px solid gray;
+}
+
+
+
