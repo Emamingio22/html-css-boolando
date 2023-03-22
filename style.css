@@ -1,5 +1,6 @@
 body {
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 
 }
@@ -18,21 +19,21 @@ h2 {
 
 .flex-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
+    
+    
 }
+
+
+
 
 
 
 img {
    width: 200px;
    height: 320px;
-   margin-left: 10px;
-   margin-bottom: 50px;
-   padding-top: 0px;
-   
-   
-   
+    padding-top: 0px;
 }
 
 .item {
@@ -53,15 +54,28 @@ img {
     line-height: 0px;
     justify-content: center;
     border: 1px solid rgb(214, 214, 214);
-    border-left: 0px solid rgb(214, 214, 214);
+    border-left: 1px solid rgb(214, 214, 214);
+    margin-top: 30px;
+
     
 }
 
 
-.Levi {
+.self {
     
-    box-sizing: border-box;
+    align-items: center;
+    
+    
 }
 
 
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+
+.line {
+    text-decoration: line-through;
+}
 
